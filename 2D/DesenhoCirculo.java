@@ -9,7 +9,11 @@ public class DesenhoCirculo extends JPanel {
         super.paintComponent(g);
         Graphics2D g2 = (Graphics2D) g;
         g2.setColor(Color.blue);
-        g2.fillOval(100, 100, 200, 200);
+        g2.fillOval(120, 100, 40, 40);
+        g2.setColor(Color.black);
+        g2.drawLine(100, 100, 100, 140);
+        g2.setColor(Color.red);
+        g2.fillRoundRect(190, 100, 40, 40, 10, 10);
     }
 
 
